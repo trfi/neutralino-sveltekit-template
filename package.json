@@ -1,0 +1,39 @@
+{
+  "name": "neutralino-sveltekit-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "keywords": [
+    "sveltekit",
+    "neutralino",
+    "bun",
+    "desktop-app",
+    "template",
+    "electron-alternative"
+  ],
+  "author": "trfi",
+  "license": "ISC",
+  "description": "A template for building desktop applications with Neutralino.js and SvelteKit frontend",
+  "dependencies": {
+    "@neutralinojs/lib": "^6.2.0",
+    "execa": "^9.5.2"
+  },
+  "devDependencies": {
+    "@neutralinojs/neu": "^11.5.0",
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.27.0",
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "@types/bun": "^1.1.14",
+    "svelte": "^5.37.3",
+    "svelte-check": "^4.3.1",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  }
+}
