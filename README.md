@@ -4,12 +4,22 @@ A modern, lightweight desktop application template combining the power of [Neutr
 
 ## 🚀 Features
 
-- **🪶 Lightweight**: Neutralino.js provides a smaller footprint alternative to Electron
+- **🔥 Lightweight**: Neutralino.js provides a smaller footprint alternative to Electron
 - **⚡ Fast Development**: SvelteKit with Vite for instant HMR and blazing-fast builds
 - **🎯 Type Safety**: Full TypeScript support throughout the project
-- **📱 Cross-Platform**: Build for Windows, macOS, and Linux from a single codebase
+- **📱 Cross-Platform**: Build for Windows, macOS, and Linux from a single codebase (Neutralino.js supports Windows, macOS, Linux, and FreeBSD)
 - **🎨 Modern UI**: Clean, responsive design with dark/light mode support
 - **🔧 Developer Experience**: Pre-configured with optimal settings and tooling
+
+## 🎯 Why This Template?
+
+Traditional desktop app frameworks like Electron can be resource-heavy. This template provides:
+
+- **Smaller bundle sizes** compared to Electron
+- **Lower memory usage** for better performance  
+- **Modern web technologies** with desktop capabilities
+- **Fast development cycle** with hot module replacement
+- **Easy deployment** as static files
 
 ## 📋 Prerequisites
 
